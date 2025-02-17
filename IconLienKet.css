@@ -1,0 +1,14 @@
+/* Thiết lập kích thước icon */
+.icon-img {
+    width: 30px; /* Kích thước icon */
+    height: 30px;
+    margin: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hiệu ứng khi hover */
+.icon-img:hover {
+    transform: scale(1.2); /* Phóng to nhẹ */
+    opacity: 0.8; /* Làm mờ nhẹ */
+}
